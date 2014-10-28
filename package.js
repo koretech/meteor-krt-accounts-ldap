@@ -1,6 +1,8 @@
 Package.describe({
-	summary: "Koretech LDAP authentication",
-	version: '0.1.0'
+	name: 'krt:accounts-ldap',
+	summary: 'Koretech LDAP authentication',
+	version: '0.1.0',
+	git: 'https://github.com/koretech/meteor-krt-accounts-ldap.git'
 });
 
 Package.onUse(function(api){
