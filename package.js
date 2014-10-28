@@ -7,6 +7,8 @@ Package.describe({
 
 Package.onUse(function(api){
 
+	api.versionsFrom('METEOR@0.9.4');
+
 	Npm.depends({
 		"activedirectory": "0.5.1"
 	});
@@ -14,7 +16,7 @@ Package.onUse(function(api){
 	api.use([
 		'underscore',
 		'accounts-base',
-		'krt-core@0.1.0'
+		'krt:core@0.1.0'
 	], ['client', 'server']);
 
 	api.use([
