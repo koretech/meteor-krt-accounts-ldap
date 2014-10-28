@@ -12,7 +12,7 @@ Package.onUse(function(api){
 	api.use([
 		'underscore',
 		'accounts-base',
-		'kt-core@0.1.0'
+		'krt-core@0.1.0'
 	], ['client', 'server']);
 
 	api.use([

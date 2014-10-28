@@ -1,1 +1,1 @@
-KT.AccountsLdap = {};
+KRT.AccountsLdap = {};
