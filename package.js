@@ -1,13 +1,13 @@
 Package.describe({
 	name: 'krt:accounts-ldap',
 	summary: 'Koretech LDAP authentication',
-	version: '0.1.0',
+	version: '0.1.1',
 	git: 'https://github.com/koretech/meteor-krt-accounts-ldap.git'
 });
 
 Package.onUse(function(api){
 
-	api.versionsFrom('METEOR@0.9.4');
+	api.versionsFrom('METEOR@1.0');
 
 	Npm.depends({
 		"activedirectory": "0.5.1"
@@ -20,7 +20,7 @@ Package.onUse(function(api){
 	], ['client', 'server']);
 
 	api.use([
-		'meteorhacks:npm@1.2.0'
+		'meteorhacks:npm@1.2.1'
 	], 'server');
 
 	api.imply([
